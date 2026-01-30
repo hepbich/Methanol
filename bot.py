@@ -1,5 +1,5 @@
 # Верно работающий самый последний по обновлению и включенный бот
-
+import aiogram 
 import asyncio
 import logging
 
@@ -435,3 +435,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
